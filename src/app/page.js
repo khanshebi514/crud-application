@@ -77,6 +77,8 @@ useEffect(() => {
     (project) => project.id === projectsState.selectedProjectId
   );
 
+  console.log(projectsState);
+  
   return (
     <main>
       <div className="container flex gap-3">
